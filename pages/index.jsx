@@ -219,7 +219,7 @@ export default function Home() {
                 margin: "5px",
               }}
             >
-              <p style={{ fontWeight: "bold" }}>"{memo.message}"</p>
+              <p style={{ fontWeight: "bold" }}>&ldquo;{memo.message}&rdquo;</p>
               <p>
                 From: {memo.name} at{" "}
                 {new Date(memo.timestamp.toString() * 1000).toDateString()}
